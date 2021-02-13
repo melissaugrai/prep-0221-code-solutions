@@ -1,0 +1,4 @@
+Types of Applications I'd like to make:
+-custom planner Applications
+-to do list
+-interactivity on webpages
