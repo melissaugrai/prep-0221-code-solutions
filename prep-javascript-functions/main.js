@@ -14,3 +14,12 @@ function convertHoursToMinutes(number) {
 
 var convertHoursToMinutesResults = convertHoursToMinutes(2);
 console.log('convertHoursToMinutes Function', convertHoursToMinutesResults);
+
+// personalizeGreeting
+
+function personalizeGreeting(name) {
+  return 'Hello ' + name + '!';
+}
+
+var personalizeGreetingResult = personalizeGreeting('World');
+console.log('personalizeGreeting Function', personalizeGreetingResult);
