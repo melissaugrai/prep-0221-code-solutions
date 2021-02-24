@@ -32,3 +32,11 @@ function addAndMultiplyBy5(num1, num2) {
 
 var addAndMultiplyBy5Results = addAndMultiplyBy5(10, 5);
 console.log('addAndMultiplyBy5 Function', addAndMultiplyBy5Results);
+
+// multiplyAndDivideBy5
+
+function multiplyAndDivideBy5(num1, num2) {
+  return (num1 * num2) / 5;
+}
+var multiplyAndDivideBy5Results = multiplyAndDivideBy5(35, 10);
+console.log('multiplyAndDivideBy5 Function', multiplyAndDivideBy5Results);
