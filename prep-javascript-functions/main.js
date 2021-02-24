@@ -5,3 +5,12 @@ function addTwoNumbers(num1, num2) {
 
 var addTwoNumbersResults = addTwoNumbers(2, 2);
 console.log('addTwoNumbers Function', addTwoNumbersResults);
+
+// convertHoursToMinutes
+
+function convertHoursToMinutes(number) {
+  return number * 60;
+}
+
+var convertHoursToMinutesResults = convertHoursToMinutes(2);
+console.log('convertHoursToMinutes Function', convertHoursToMinutesResults);
