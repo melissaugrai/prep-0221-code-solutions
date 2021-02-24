@@ -23,3 +23,12 @@ function personalizeGreeting(name) {
 
 var personalizeGreetingResult = personalizeGreeting('World');
 console.log('personalizeGreeting Function', personalizeGreetingResult);
+
+// addAndMultiplyBy5
+
+function addAndMultiplyBy5(num1, num2) {
+  return (num1 + num2) * 5;
+}
+
+var addAndMultiplyBy5Results = addAndMultiplyBy5(10, 5);
+console.log('addAndMultiplyBy5 Function', addAndMultiplyBy5Results);
