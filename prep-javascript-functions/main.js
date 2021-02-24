@@ -12,3 +12,10 @@ function convertHoursToMinutes(num) {
 }
 
 console.log(convertHoursToMinutes(2));
+
+// personalizeGreeting
+
+function personalizeGreeting(name) {
+  return 'Hello ' + name + '!';
+}
+console.log(personalizeGreeting('World'));
