@@ -50,3 +50,12 @@ function subtractTwoNumbers(num1, num2) {
 
 var subtractTwoNumbersResults = subtractTwoNumbers(22, 7);
 console.log('subtractTwoNumbers Function', subtractTwoNumbersResults);
+
+// getCircleCircumference
+
+function getCircleCircumference(radius) {
+  return 2 * Math.PI * radius;
+}
+
+var getCircleCircumferenceResult = getCircleCircumference(5);
+console.log('getCircleCircumference Function', getCircleCircumferenceResult);
