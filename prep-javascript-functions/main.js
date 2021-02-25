@@ -68,3 +68,12 @@ function getFullName(firstName, lastName) {
 
 var getFullNameResults = getFullName('Juan', 'Ramirez');
 console.log('getFullName Function', getFullNameResults);
+
+// cube
+
+function cube(number) {
+  return Math.pow(number, 3);
+}
+
+var cubeResults = cube(5);
+console.log('cube Function', cubeResults);
